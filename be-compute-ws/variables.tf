@@ -67,5 +67,5 @@ variable "be_security_workspace_name" {
 variable "organization_name" {
   description = "Name of the HCP Terraform organization with the source workspace"
   type        = string
-  default     = "hc-team"
+  default     = "nandahc-vcs-driven-team"
 }
