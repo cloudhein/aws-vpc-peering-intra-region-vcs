@@ -3,6 +3,7 @@
 *.tfstate.*
 *.tfplan
 crash.log
+terraform/*
 
 # Local .terraform directories in any subdirectory
 **/.terraform/
