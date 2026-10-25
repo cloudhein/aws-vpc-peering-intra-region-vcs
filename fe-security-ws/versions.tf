@@ -10,7 +10,7 @@ terraform {
 
   cloud {
 
-    organization = "hc-team"
+    organization = "nandahc-vcs-driven-team"
 
     workspaces {
       name = "fe-security-ws"
