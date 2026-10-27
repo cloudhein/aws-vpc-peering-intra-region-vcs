@@ -1,7 +1,7 @@
 variable "organization" {
   description = "HCP Terraform organization containing the target workspaces."
   type        = string
-  default     = "hc-team"
+  default     = "nandahc-vcs-driven-team"
 }
 
 variable "workspace_names" {
