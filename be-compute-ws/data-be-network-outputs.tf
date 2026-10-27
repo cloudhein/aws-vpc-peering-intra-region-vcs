@@ -5,7 +5,7 @@ data "tfe_outputs" "be_network_source_workspace" {
   organization = var.organization_name
 }
 
-# data "tfe_outputs" "fe_security_source_workspace" {
-#   workspace    = var.fe_security_workspace_name
-#   organization = var.organization_name
-# }
+data "tfe_outputs" "be_security_source_workspace" {
+  workspace    = var.be_security_workspace_name
+  organization = var.organization_name
+}

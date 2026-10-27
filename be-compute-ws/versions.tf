@@ -13,7 +13,7 @@ terraform {
     organization = "nandahc-vcs-driven-team"
 
     workspaces {
-      name = "be-network-ws"
+      name = "be-compute-ws"
     }
   }
 }
