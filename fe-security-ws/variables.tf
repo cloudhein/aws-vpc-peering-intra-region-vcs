@@ -28,8 +28,8 @@ variable "organization_name" {
 variable "frontend_public_subnet_cidr" {
   description = "The CIDR block for the frontend public subnets."
   type        = string
-  # default     = "27.130.180.215/32"
-  default = "0.0.0.0/0"
+  default     = "27.130.180.215/32"
+  #default = "0.0.0.0/0"
 }
 
 variable "be_security_workspace_name" {
