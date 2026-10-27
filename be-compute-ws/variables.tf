@@ -24,7 +24,7 @@ variable "backend_environment" {
 
 variable "be_instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
 #############################################################
